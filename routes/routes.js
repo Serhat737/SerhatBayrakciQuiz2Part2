@@ -22,7 +22,7 @@ const addUser = async () => {
 addUser();
 
 //Add a new User:
-router.route("/add").post((req, res) => {
+router.route("/").get((req, res) => {
   const name = req.body.name;
   const sid = req.body.sid;
   // create a new User object 
