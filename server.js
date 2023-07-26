@@ -11,10 +11,9 @@ app.use(express.json());
 //FOR LOCAL SERVER
 //const uri = "mongodb://127.0.0.1:27017/Exams23002";
 
-//FOR MONGODB ATLAS
-//const uri = "mongodb+srv://serhat:ss123456@cluster0.2ikdvro.mongodb.net/Exams23002";
 
-const uri = "mongodb://127.0.0.1:27017/Exams23002";
+
+const uri = "mongodb+srv://tempuser:123@cluster0.f9d6o.gcp.mongodb.net/Exams23002";
 mongoose.connect(uri, { useNewUrlParser: true, useCreateIndex: true,  useUnifiedTopology: true   }
 );
 
